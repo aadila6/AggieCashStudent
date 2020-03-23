@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0AD93223E3A4F400F2C13C /* Buyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0AD93123E3A4F300F2C13C /* Buyer.swift */; };
+		5B0AD93423E3B18F00F2C13C /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0AD93323E3B18F00F2C13C /* HomeTabBarViewController.swift */; };
+		5BEE32F823E2ACDD0038FE6C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BEE32F723E2ACDD0038FE6C /* GoogleService-Info.plist */; };
+		AD4B02A224086DB800AEF2C6 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02A124086DB800AEF2C6 /* AuthViewController.swift */; };
+		AD4B02A624086DC400AEF2C6 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02A324086DC400AEF2C6 /* MenuCell.swift */; };
+		AD4B02A724086DC400AEF2C6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02A424086DC400AEF2C6 /* ProfileViewController.swift */; };
+		AD4B02A824086DC400AEF2C6 /* MenuCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02A524086DC400AEF2C6 /* MenuCellViewController.swift */; };
+		AD4B02B0240875F400AEF2C6 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02AF240875F400AEF2C6 /* PayViewController.swift */; };
+		AD4B02D324087E1900AEF2C6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02B824087E1800AEF2C6 /* Constants.swift */; };
+		AD4B02D424087E1900AEF2C6 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02B924087E1800AEF2C6 /* Style.swift */; };
+		AD4B02D524087E1900AEF2C6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02BA24087E1800AEF2C6 /* Color.swift */; };
+		AD4B02D624087E1900AEF2C6 /* ChargeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02BC24087E1800AEF2C6 /* ChargeApi.swift */; };
+		AD4B02D924087E1900AEF2C6 /* extension-UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02C124087E1800AEF2C6 /* extension-UIView.swift */; };
+		AD4B02DB24087E1900AEF2C6 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02C524087E1800AEF2C6 /* ExampleViewController.swift */; };
+		AD4B02DC24087E1900AEF2C6 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02C624087E1800AEF2C6 /* OrderViewController.swift */; };
+		AD4B02DD24087E1900AEF2C6 /* OrderNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02C724087E1800AEF2C6 /* OrderNavigationController.swift */; };
+		AD4B02DE24087E1900AEF2C6 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02C924087E1800AEF2C6 /* ExampleView.swift */; };
+		AD4B02DF24087E1900AEF2C6 /* TableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02CB24087E1800AEF2C6 /* TableRowView.swift */; };
+		AD4B02E024087E1900AEF2C6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02CC24087E1800AEF2C6 /* HeaderView.swift */; };
+		AD4B02E124087E1900AEF2C6 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02CD24087E1800AEF2C6 /* ActionButton.swift */; };
+		AD4B02E224087E1900AEF2C6 /* HairlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02CE24087E1800AEF2C6 /* HairlineView.swift */; };
+		AD4B02E324087E1900AEF2C6 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02CF24087E1800AEF2C6 /* OrderView.swift */; };
+		AD4B02E524087E1900AEF2C6 /* HalfSheetPresentationControllerHeightProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B02D224087E1800AEF2C6 /* HalfSheetPresentationControllerHeightProtocol.swift */; };
+		ADCF227323F6366700C76A80 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF227223F6366700C76A80 /* Item.swift */; };
+		ADDCDF6023F10CB20014B48F /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDCDF5F23F10CB20014B48F /* Order.swift */; };
+		ADDCDF6223F10CB90014B48F /* Seller.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDCDF6123F10CB90014B48F /* Seller.swift */; };
+		ADF31FF923E2AA30008CF7DB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ADF31FF823E2AA30008CF7DB /* Podfile */; };
+		ADF31FFB23E2AB9C008CF7DB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF31FFA23E2AB9C008CF7DB /* SignUpViewController.swift */; };
+		ADF31FFD23E2ABAB008CF7DB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF31FFC23E2ABAB008CF7DB /* LoginViewController.swift */; };
+		ADF3200123E2ABCB008CF7DB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3200023E2ABCB008CF7DB /* SettingViewController.swift */; };
+		ADF3200323E2ABD8008CF7DB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3200223E2ABD8008CF7DB /* MenuViewController.swift */; };
+		ADF3200523E2AC64008CF7DB /* VendorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3200423E2AC64008CF7DB /* VendorViewController.swift */; };
+		ADF3200823E2B082008CF7DB /* UIcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3200723E2B082008CF7DB /* UIcontroller.swift */; };
+		C550723723DE2202006DFA37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C550723623DE2202006DFA37 /* AppDelegate.swift */; };
+		C550723923DE2202006DFA37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C550723823DE2202006DFA37 /* SceneDelegate.swift */; };
+		C550723E23DE2202006DFA37 /* Other.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C550723C23DE2202006DFA37 /* Other.storyboard */; };
+		C550724023DE2205006DFA37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C550723F23DE2205006DFA37 /* Assets.xcassets */; };
+		C550724323DE2205006DFA37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C550724123DE2205006DFA37 /* LaunchScreen.storyboard */; };
+		C58D0EF823F0CFC700F0B1AF /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58D0EF723F0CFC700F0B1AF /* SettingTableViewController.swift */; };
+		C58D0EFA23F0D00D00F0B1AF /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58D0EF923F0D00D00F0B1AF /* ProfileTableViewController.swift */; };
+		C58D0EFE23F0D85300F0B1AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58D0EFD23F0D85300F0B1AF /* Main.storyboard */; };
+		C58D0F0423F63A7E00F0B1AF /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58D0F0223F5CAE700F0B1AF /* MenuTableViewCell.swift */; };
+		C5F0473323E3EC6700F445A4 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0473223E3EC6700F445A4 /* CartViewController.swift */; };
+		C5F0473523E3F11800F445A4 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0473423E3F11800F445A4 /* OrdersViewController.swift */; };
+		CC6DC2A9B28C6DD5746A7F0A /* Pods_AggieCashStudent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B5EDF0D35393AE23496DBB /* Pods_AggieCashStudent.framework */; };
+		EB98405323ECBC29005A85D0 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB98405123ECBC29005A85D0 /* ItemCell.swift */; };
+		EB98405423ECBC29005A85D0 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB98405223ECBC29005A85D0 /* ItemCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28B5EDF0D35393AE23496DBB /* Pods_AggieCashStudent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AggieCashStudent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0AD93123E3A4F300F2C13C /* Buyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buyer.swift; sourceTree = "<group>"; };
+		5B0AD93323E3B18F00F2C13C /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
+		5BEE32F723E2ACDD0038FE6C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7285358FF1621993D1DCDFAC /* Pods-AggieCashStudent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AggieCashStudent.release.xcconfig"; path = "Target Support Files/Pods-AggieCashStudent/Pods-AggieCashStudent.release.xcconfig"; sourceTree = "<group>"; };
+		AD4B02A124086DB800AEF2C6 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		AD4B02A324086DC400AEF2C6 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		AD4B02A424086DC400AEF2C6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AD4B02A524086DC400AEF2C6 /* MenuCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCellViewController.swift; sourceTree = "<group>"; };
+		AD4B02AF240875F400AEF2C6 /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		AD4B02B824087E1800AEF2C6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AD4B02B924087E1800AEF2C6 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		AD4B02BA24087E1800AEF2C6 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		AD4B02BC24087E1800AEF2C6 /* ChargeApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargeApi.swift; sourceTree = "<group>"; };
+		AD4B02C124087E1800AEF2C6 /* extension-UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "extension-UIView.swift"; sourceTree = "<group>"; };
+		AD4B02C224087E1800AEF2C6 /* mCommExample.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = mCommExample.entitlements; sourceTree = "<group>"; };
+		AD4B02C524087E1800AEF2C6 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		AD4B02C624087E1800AEF2C6 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		AD4B02C724087E1800AEF2C6 /* OrderNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderNavigationController.swift; sourceTree = "<group>"; };
+		AD4B02C924087E1800AEF2C6 /* ExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		AD4B02CB24087E1800AEF2C6 /* TableRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRowView.swift; sourceTree = "<group>"; };
+		AD4B02CC24087E1800AEF2C6 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		AD4B02CD24087E1800AEF2C6 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		AD4B02CE24087E1800AEF2C6 /* HairlineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HairlineView.swift; sourceTree = "<group>"; };
+		AD4B02CF24087E1800AEF2C6 /* OrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		AD4B02D224087E1800AEF2C6 /* HalfSheetPresentationControllerHeightProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfSheetPresentationControllerHeightProtocol.swift; sourceTree = "<group>"; };
+		ADCF227223F6366700C76A80 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		ADDCDF5F23F10CB20014B48F /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		ADDCDF6123F10CB90014B48F /* Seller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seller.swift; sourceTree = "<group>"; };
+		ADF31FF823E2AA30008CF7DB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADF31FFA23E2AB9C008CF7DB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		ADF31FFC23E2ABAB008CF7DB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ADF3200023E2ABCB008CF7DB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		ADF3200223E2ABD8008CF7DB /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		ADF3200423E2AC64008CF7DB /* VendorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorViewController.swift; sourceTree = "<group>"; };
+		ADF3200723E2B082008CF7DB /* UIcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIcontroller.swift; sourceTree = "<group>"; };
+		B67B1A559C5C9B6D5D31C664 /* Pods-AggieCashStudent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AggieCashStudent.debug.xcconfig"; path = "Target Support Files/Pods-AggieCashStudent/Pods-AggieCashStudent.debug.xcconfig"; sourceTree = "<group>"; };
+		C550723323DE2202006DFA37 /* AggieCashStudent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AggieCashStudent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C550723623DE2202006DFA37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C550723823DE2202006DFA37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C550723D23DE2202006DFA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Other.storyboard; sourceTree = "<group>"; };
+		C550723F23DE2205006DFA37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C550724223DE2205006DFA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C550724423DE2205006DFA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58D0EF723F0CFC700F0B1AF /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		C58D0EF923F0D00D00F0B1AF /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		C58D0EFD23F0D85300F0B1AF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C58D0F0223F5CAE700F0B1AF /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		C5F0473223E3EC6700F445A4 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		C5F0473423E3F11800F445A4 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		EB98405123ECBC29005A85D0 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		EB98405223ECBC29005A85D0 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C550723023DE2202006DFA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6DC2A9B28C6DD5746A7F0A /* Pods_AggieCashStudent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D7DBC121380DEFC518AF28C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B67B1A559C5C9B6D5D31C664 /* Pods-AggieCashStudent.debug.xcconfig */,
+				7285358FF1621993D1DCDFAC /* Pods-AggieCashStudent.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B0AD92E23E3A4C900F2C13C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADDCDF6123F10CB90014B48F /* Seller.swift */,
+				ADDCDF5F23F10CB20014B48F /* Order.swift */,
+				5B0AD93123E3A4F300F2C13C /* Buyer.swift */,
+				ADCF227223F6366700C76A80 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD4B02B624087E1800AEF2C6 /* InAppPaymentsSample */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B02C224087E1800AEF2C6 /* mCommExample.entitlements */,
+			);
+			path = InAppPaymentsSample;
+			sourceTree = "<group>";
+		};
+		AD4B02BB24087E1800AEF2C6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B02BC24087E1800AEF2C6 /* ChargeApi.swift */,
+			);
+			name = Network;
+			path = Constants/Network;
+			sourceTree = "<group>";
+		};
+		AD4B02C024087E1800AEF2C6 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B02C124087E1800AEF2C6 /* extension-UIView.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		AD4B02C424087E1800AEF2C6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B02C524087E1800AEF2C6 /* ExampleViewController.swift */,
+				AD4B02C624087E1800AEF2C6 /* OrderViewController.swift */,
+				AD4B02C724087E1800AEF2C6 /* OrderNavigationController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AD4B02C824087E1800AEF2C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B02C924087E1800AEF2C6 /* ExampleView.swift */,
+				AD4B02CA24087E1800AEF2C6 /* Generators */,
+				AD4B02CF24087E1800AEF2C6 /* OrderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD4B02CA24087E1800AEF2C6 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B02CB24087E1800AEF2C6 /* TableRowView.swift */,
+				AD4B02CC24087E1800AEF2C6 /* HeaderView.swift */,
+				AD4B02CD24087E1800AEF2C6 /* ActionButton.swift */,
+				AD4B02CE24087E1800AEF2C6 /* HairlineView.swift */,
+			);
+			path = Generators;
+			sourceTree = "<group>";
+		};
+		AD4B02D124087E1800AEF2C6 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B02D224087E1800AEF2C6 /* HalfSheetPresentationControllerHeightProtocol.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		ADF3200623E2AD69008CF7DB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B02A324086DC400AEF2C6 /* MenuCell.swift */,
+				AD4B02A524086DC400AEF2C6 /* MenuCellViewController.swift */,
+				AD4B02A424086DC400AEF2C6 /* ProfileViewController.swift */,
+				AD4B02A124086DB800AEF2C6 /* AuthViewController.swift */,
+				ADF31FFA23E2AB9C008CF7DB /* SignUpViewController.swift */,
+				ADF31FFC23E2ABAB008CF7DB /* LoginViewController.swift */,
+				ADF3200023E2ABCB008CF7DB /* SettingViewController.swift */,
+				ADF3200223E2ABD8008CF7DB /* MenuViewController.swift */,
+				ADF3200423E2AC64008CF7DB /* VendorViewController.swift */,
+				5B0AD93323E3B18F00F2C13C /* HomeTabBarViewController.swift */,
+				C5F0473223E3EC6700F445A4 /* CartViewController.swift */,
+				C5F0473423E3F11800F445A4 /* OrdersViewController.swift */,
+				C58D0EF723F0CFC700F0B1AF /* SettingTableViewController.swift */,
+				C58D0EF923F0D00D00F0B1AF /* ProfileTableViewController.swift */,
+				AD4B02AF240875F400AEF2C6 /* PayViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C550722A23DE2202006DFA37 = {
+			isa = PBXGroup;
+			children = (
+				C550723523DE2202006DFA37 /* AggieCashStudent */,
+				C550723423DE2202006DFA37 /* Products */,
+				4D7DBC121380DEFC518AF28C /* Pods */,
+				F408710AA66898F497D2B647 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C550723423DE2202006DFA37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C550723323DE2202006DFA37 /* AggieCashStudent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C550723523DE2202006DFA37 /* AggieCashStudent */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B02B924087E1800AEF2C6 /* Style.swift */,
+				AD4B02B824087E1800AEF2C6 /* Constants.swift */,
+				AD4B02BA24087E1800AEF2C6 /* Color.swift */,
+				AD4B02C824087E1800AEF2C6 /* Views */,
+				AD4B02D124087E1800AEF2C6 /* Animations */,
+				AD4B02C424087E1800AEF2C6 /* Controllers */,
+				AD4B02C024087E1800AEF2C6 /* extensions */,
+				AD4B02BB24087E1800AEF2C6 /* Network */,
+				AD4B02B624087E1800AEF2C6 /* InAppPaymentsSample */,
+				EB98404C23ECBA70005A85D0 /* Cells */,
+				5B0AD92E23E3A4C900F2C13C /* Models */,
+				ADF3200623E2AD69008CF7DB /* ViewControllers */,
+				ADF31FF823E2AA30008CF7DB /* Podfile */,
+				ADF3200723E2B082008CF7DB /* UIcontroller.swift */,
+				C550723623DE2202006DFA37 /* AppDelegate.swift */,
+				C550723823DE2202006DFA37 /* SceneDelegate.swift */,
+				C58D0EFD23F0D85300F0B1AF /* Main.storyboard */,
+				C550723C23DE2202006DFA37 /* Other.storyboard */,
+				C550724123DE2205006DFA37 /* LaunchScreen.storyboard */,
+				C550723F23DE2205006DFA37 /* Assets.xcassets */,
+				C550724423DE2205006DFA37 /* Info.plist */,
+				5BEE32F723E2ACDD0038FE6C /* GoogleService-Info.plist */,
+			);
+			path = AggieCashStudent;
+			sourceTree = "<group>";
+		};
+		EB98404C23ECBA70005A85D0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EB98405123ECBC29005A85D0 /* ItemCell.swift */,
+				EB98405223ECBC29005A85D0 /* ItemCell.xib */,
+				C58D0F0223F5CAE700F0B1AF /* MenuTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F408710AA66898F497D2B647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28B5EDF0D35393AE23496DBB /* Pods_AggieCashStudent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C550723223DE2202006DFA37 /* AggieCashStudent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C550724723DE2205006DFA37 /* Build configuration list for PBXNativeTarget "AggieCashStudent" */;
+			buildPhases = (
+				B764C635E11241BC80BD216D /* [CP] Check Pods Manifest.lock */,
+				C550722F23DE2202006DFA37 /* Sources */,
+				C550723023DE2202006DFA37 /* Frameworks */,
+				C550723123DE2202006DFA37 /* Resources */,
+				D474BA5D2FBC6DA03E2249D9 /* [CP] Embed Pods Frameworks */,
+				BD008A670DE4622EE876B7B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AggieCashStudent;
+			productName = AggieCashStudent;
+			productReference = C550723323DE2202006DFA37 /* AggieCashStudent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C550722B23DE2202006DFA37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = AggieCashStudent;
+				TargetAttributes = {
+					C550723223DE2202006DFA37 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C550722E23DE2202006DFA37 /* Build configuration list for PBXProject "AggieCashStudent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C550722A23DE2202006DFA37;
+			productRefGroup = C550723423DE2202006DFA37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C550723223DE2202006DFA37 /* AggieCashStudent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C550723123DE2202006DFA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C550724323DE2205006DFA37 /* LaunchScreen.storyboard in Resources */,
+				C550724023DE2205006DFA37 /* Assets.xcassets in Resources */,
+				C58D0EFE23F0D85300F0B1AF /* Main.storyboard in Resources */,
+				EB98405423ECBC29005A85D0 /* ItemCell.xib in Resources */,
+				5BEE32F823E2ACDD0038FE6C /* GoogleService-Info.plist in Resources */,
+				ADF31FF923E2AA30008CF7DB /* Podfile in Resources */,
+				C550723E23DE2202006DFA37 /* Other.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B764C635E11241BC80BD216D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AggieCashStudent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD008A670DE4622EE876B7B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AggieCashStudent/Pods-AggieCashStudent-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AggieCashStudent/Pods-AggieCashStudent-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AggieCashStudent/Pods-AggieCashStudent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D474BA5D2FBC6DA03E2249D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AggieCashStudent/Pods-AggieCashStudent-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AggieCashStudent/Pods-AggieCashStudent-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AggieCashStudent/Pods-AggieCashStudent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C550722F23DE2202006DFA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4B02E524087E1900AEF2C6 /* HalfSheetPresentationControllerHeightProtocol.swift in Sources */,
+				AD4B02B0240875F400AEF2C6 /* PayViewController.swift in Sources */,
+				AD4B02E224087E1900AEF2C6 /* HairlineView.swift in Sources */,
+				ADCF227323F6366700C76A80 /* Item.swift in Sources */,
+				5B0AD93223E3A4F400F2C13C /* Buyer.swift in Sources */,
+				AD4B02DB24087E1900AEF2C6 /* ExampleViewController.swift in Sources */,
+				C550723723DE2202006DFA37 /* AppDelegate.swift in Sources */,
+				AD4B02D324087E1900AEF2C6 /* Constants.swift in Sources */,
+				AD4B02A824086DC400AEF2C6 /* MenuCellViewController.swift in Sources */,
+				ADDCDF6023F10CB20014B48F /* Order.swift in Sources */,
+				C5F0473523E3F11800F445A4 /* OrdersViewController.swift in Sources */,
+				ADF3200523E2AC64008CF7DB /* VendorViewController.swift in Sources */,
+				ADDCDF6223F10CB90014B48F /* Seller.swift in Sources */,
+				AD4B02A224086DB800AEF2C6 /* AuthViewController.swift in Sources */,
+				ADF31FFB23E2AB9C008CF7DB /* SignUpViewController.swift in Sources */,
+				ADF31FFD23E2ABAB008CF7DB /* LoginViewController.swift in Sources */,
+				AD4B02E024087E1900AEF2C6 /* HeaderView.swift in Sources */,
+				AD4B02D624087E1900AEF2C6 /* ChargeApi.swift in Sources */,
+				C5F0473323E3EC6700F445A4 /* CartViewController.swift in Sources */,
+				C58D0EFA23F0D00D00F0B1AF /* ProfileTableViewController.swift in Sources */,
+				ADF3200123E2ABCB008CF7DB /* SettingViewController.swift in Sources */,
+				AD4B02DD24087E1900AEF2C6 /* OrderNavigationController.swift in Sources */,
+				AD4B02D524087E1900AEF2C6 /* Color.swift in Sources */,
+				AD4B02E324087E1900AEF2C6 /* OrderView.swift in Sources */,
+				AD4B02D924087E1900AEF2C6 /* extension-UIView.swift in Sources */,
+				AD4B02D424087E1900AEF2C6 /* Style.swift in Sources */,
+				C58D0F0423F63A7E00F0B1AF /* MenuTableViewCell.swift in Sources */,
+				AD4B02A724086DC400AEF2C6 /* ProfileViewController.swift in Sources */,
+				ADF3200823E2B082008CF7DB /* UIcontroller.swift in Sources */,
+				AD4B02A624086DC400AEF2C6 /* MenuCell.swift in Sources */,
+				5B0AD93423E3B18F00F2C13C /* HomeTabBarViewController.swift in Sources */,
+				AD4B02DE24087E1900AEF2C6 /* ExampleView.swift in Sources */,
+				AD4B02E124087E1900AEF2C6 /* ActionButton.swift in Sources */,
+				C58D0EF823F0CFC700F0B1AF /* SettingTableViewController.swift in Sources */,
+				C550723923DE2202006DFA37 /* SceneDelegate.swift in Sources */,
+				ADF3200323E2ABD8008CF7DB /* MenuViewController.swift in Sources */,
+				EB98405323ECBC29005A85D0 /* ItemCell.swift in Sources */,
+				AD4B02DC24087E1900AEF2C6 /* OrderViewController.swift in Sources */,
+				AD4B02DF24087E1900AEF2C6 /* TableRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C550723C23DE2202006DFA37 /* Other.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C550723D23DE2202006DFA37 /* Base */,
+			);
+			name = Other.storyboard;
+			sourceTree = "<group>";
+		};
+		C550724123DE2205006DFA37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C550724223DE2205006DFA37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C550724523DE2205006DFA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C550724623DE2205006DFA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C550724823DE2205006DFA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B67B1A559C5C9B6D5D31C664 /* Pods-AggieCashStudent.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS9S27J65P;
+				INFOPLIST_FILE = AggieCashStudent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucdavis.cs.AggieCashStudent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C550724923DE2205006DFA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7285358FF1621993D1DCDFAC /* Pods-AggieCashStudent.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS9S27J65P;
+				INFOPLIST_FILE = AggieCashStudent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucdavis.cs.AggieCashStudent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C550722E23DE2202006DFA37 /* Build configuration list for PBXProject "AggieCashStudent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C550724523DE2205006DFA37 /* Debug */,
+				C550724623DE2205006DFA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C550724723DE2205006DFA37 /* Build configuration list for PBXNativeTarget "AggieCashStudent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C550724823DE2205006DFA37 /* Debug */,
+				C550724923DE2205006DFA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C550722B23DE2202006DFA37 /* Project object */;
+}
